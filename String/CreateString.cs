@@ -7,6 +7,6 @@ class CreateString
         string name = "Abhijeet";
         string programming = "C#";
 
-        Console.WriteLine("My name is "+name + " my favourite programming language is "+programming);
+        Console.WriteLine($"My name is {name} my favourite programming language is {programming}");
     }
 }
