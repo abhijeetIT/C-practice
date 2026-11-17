@@ -20,13 +20,21 @@ class CreateString
 
         //----------------------------------------------------------------------------------------------
 
-        StringBuilder sb = new StringBuilder();
+        // StringBuilder sb = new StringBuilder();
 
+        //sb.Append("Abhijeet ");
+        //sb.Append("Jha");
+
+/*
+        //this is invalid we cannot assign string in stringBuilder
+        StringBuilder sb = "Shree ";
         sb.Append("Abhijeet");
-        sb.Append("Jha");
+        sb.Append(" Jha");
+
+        */
 
         Console.WriteLine(sb);
 
-  
     }
-}
+    
+    }
