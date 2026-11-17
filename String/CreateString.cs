@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 class CreateString
 {
@@ -14,11 +15,18 @@ class CreateString
 
         //directly using System
         // System.String name = "Abhijeet";
+        
+        // Console.WriteLine($"My name is {name} my favourite programming language is {programming}");
 
         //----------------------------------------------------------------------------------------------
 
-        
+        StringBuilder sb = new StringBuilder();
 
-        Console.WriteLine($"My name is {name} my favourite programming language is {programming}");
+        sb.Append("Abhijeet");
+        sb.Append("Jha");
+
+        Console.WriteLine(sb);
+
+  
     }
 }
