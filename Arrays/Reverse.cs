@@ -1,3 +1,4 @@
+
 class Program
 {
 
@@ -25,8 +26,7 @@ class Program
     {
         int[] arr = {1,2,3,4,5,6};
 
-        Console.WriteLine(arr);
-
+        Reverse(arr);
         Console.WriteLine(string.Join(", ",arr));
     }
 }
