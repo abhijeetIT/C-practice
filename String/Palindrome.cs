@@ -4,11 +4,6 @@ class Palindrome{
 
     public static bool IsPalindrome(string str)
     {
-        if(str.Length < 1)
-        {
-            return false;
-        }
-
         int start=0 , end = str.Length-1;
 
         while(start < end)
@@ -28,7 +23,7 @@ class Palindrome{
         Console.WriteLine("Enter a string: ");
         string str = Console.ReadLine();
 
-        if (IsPalindrome(str))
+        if (IsPalindrome(str.ToLower()))
         {
             Console.WriteLine("Is palindrome");
         }
